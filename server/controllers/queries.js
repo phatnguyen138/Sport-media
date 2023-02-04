@@ -4,6 +4,6 @@ const pool = new Pool({
     user: 'me',
     host: 'localhost',
     database: 'api',
-    password: 'password',
+    password: 'Bovippro123',
     port: 8800,
 })
