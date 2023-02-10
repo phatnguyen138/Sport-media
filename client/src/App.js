@@ -6,6 +6,7 @@ import RightBar from './components/rightBar/RightBar';
 import LeftBar from './components/leftBar/LeftBar';
 import './style.scss'
 import { createBrowserRouter, RouterProvider, Route, Outlet, Navigate} from 'react-router-dom';
+import Profile from './pages/profile/Profile';
 
 function App() {
   var currentUser = true;
@@ -55,6 +56,7 @@ function App() {
         },
         {
           path: "/profile/:id",
+          element: <Profile/>
         }
       ]
     }
